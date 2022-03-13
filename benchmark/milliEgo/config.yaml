@@ -1,0 +1,100 @@
+mvo:
+    model_dir: './models/'
+    batch_size: 65
+    epochs: 200
+    # multimodal_data_dir: '/datasets/multi_gap_5'
+    # multimodal_data_dir: '/datasets/multi_gap2'
+    # multimodal_data_dir: '/mnt/workdir/Dataset/Ox-Ed-rosbags/milliego_h5_gap2'
+    # multimodal_data_dir: '/workdir/Dataset/Ox-Ed-rosbags/milliego_h5_gap2'
+    # multimodal_data_dir: '/workdir/Dataset/Ox-Ed-rosbags/milliego_handheld_gap5'
+    # multimodal_data_dir: '/workdir/Dataset/Ox-Ed-rosbags/milliego_handheld_gap3'
+    multimodal_data_dir: '/workdir/Dataset/Ox-Ed-rosbags/milliego_drone_overlap_gap2'
+    # multimodal_data_dir: '/workdir/Dataset/Ox-Ed-rosbags/milliego_robot_gap5'
+eval:
+    models:
+        - cross-mio_turtle_v1
+        # - handheld_gap3_backup
+
+nn_opt:
+    cross-mio_params:
+        nn_name: cross-mio_turtle_v1
+        cross_att_type: sigmoid
+        imu_att_type: temporal
+        imu_length: 20
+        lr_rate: 0.00001
+        rho: 0.9
+        epsilon: 1e-08
+        decay: 0.0
+        fc_trans: 1
+        fc_rot: 0.001
+
+dataset_creation:
+    dataroot: '/media/disk1/chris/Dropbox/mm_slam/data/odom/'
+    saved_dir_h5: '/media/chris/4tb_new/odom_datasets/multi_'
+#    dataroot: '/home/risqi/Documents/Dataset/mrgb_odom/'
+#    saved_dir_h5: '/home/risqi/Documents/Dataset/mrgb_odom/h5/'
+    master: 'thermal' # the first/main data (single channel: thermal, mmwave, depth, lidar) that you synchronize with GT
+    slaves: # General rule: set the IMU as the last slave
+         - 'mmwave'
+         - 'imu'
+    master_gap: 2 # for the master
+    test_file_idx: 57 # starting index in all_exp_files that is used for data testing
+    all_exp_files:
+        - 2019-10-27-14-28-21 # 0
+        - 2019-10-27-14-39-09
+        - 2019-10-27-14-42-16
+        - 2019-10-27-14-47-00
+        - 2019-10-27-14-50-17
+        - 2019-10-27-14-56-27
+        - 2019-10-27-15-02-46
+        - 2019-10-27-15-06-06
+        - 2019-10-27-15-09-33
+        - 2019-10-27-15-13-03
+        - 2019-10-27-15-18-07 # 10
+        - 2019-10-27-15-24-29
+        - 2019-10-27-15-26-35
+        - 2019-10-27-15-33-43
+        - 2019-11-04-20-29-51
+        - 2019-11-04-20-38-57
+        - 2019-11-04-20-44-42
+        - 2019-11-04-20-50-22
+        - 2019-11-04-20-53-11
+        - 2019-11-04-20-58-32
+        - 2019-11-04-21-03-01 # 20
+        - 2019-11-04-21-14-16
+        - 2019-11-04-21-16-38
+        - 2019-11-04-21-25-03
+        - 2019-11-04-21-27-48
+        - 2019-11-07-17-07-37
+        - 2019-11-07-17-10-55
+        - 2019-11-07-17-16-06
+        - 2019-11-07-17-17-48
+        - 2019-11-07-17-21-14
+        - 2019-11-07-17-22-29 # 30
+        - 2019-11-07-17-23-58
+        - 2019-11-07-17-26-06
+        - 2019-11-07-17-29-52
+        - 2019-11-07-17-32-02
+        - 2019-11-07-17-32-56
+        - 2019-11-07-17-34-04
+        - 2019-11-07-17-35-27
+        - 2019-11-07-17-39-14
+        - 2019-11-07-17-42-47
+        - 2019-11-07-17-47-21 # 40
+        - 2019-11-22-10-10-00
+        - 2019-11-22-10-14-01
+        - 2019-11-22-10-22-48
+        - 2019-11-22-10-26-42
+#        - 2019-11-22-10-33-16
+        - 2019-11-22-10-34-57
+        - 2019-11-22-10-36-00
+        - 2019-11-22-10-37-42
+        - 2019-11-22-10-38-47
+        - 2019-11-28-15-26-55
+        - 2019-11-28-15-30-17 # 50
+        - 2019-11-28-15-31-27
+        - 2019-11-28-15-34-53
+        - 2019-11-28-15-36-35
+        - 2019-11-28-15-38-13
+        - 2019-11-28-15-40-10
+        - 2019-11-28-15-43-32 # 56

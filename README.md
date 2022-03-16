@@ -1,5 +1,7 @@
 # OdomBeyondVision: An Indoor Multi-modal Multi-platform Odometry Dataset Beyond the Visible Spectrum
 
+[![Watch the video](https://img.youtube.com/vi/EbjNoZcZpzQ/default.jpg)](https://youtu.be/EbjNoZcZpzQ)
+
 ## Abstract
 
 We present the **OdomBeyondVision** dataset, a comprehensive indoor odometry dataset containing the data from both emerging and traditional navigation sensors on diverse platforms. The dataset features:

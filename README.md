@@ -1,6 +1,10 @@
 # OdomBeyondVision: An Indoor Multi-modal Multi-platform Odometry Dataset Beyond the Visible Spectrum
 
-[![Watch the video](https://img.youtube.com/vi/EbjNoZcZpzQ/default.jpg)](https://youtu.be/EbjNoZcZpzQ)
+<!-- [<img src="https://i.imgur.com/i0Ko1ze.png" align="center" width="400">](https://youtu.be/EbjNoZcZpzQ) -->
+
+Watch the video:
+[<p align="center"><img width="600" src="https://i.imgur.com/i0Ko1ze.png"></p>](https://youtu.be/EbjNoZcZpzQ)
+
 
 ## Abstract
 

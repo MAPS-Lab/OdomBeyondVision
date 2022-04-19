@@ -49,7 +49,7 @@ Details can be seen [here](./toolkit/README.md).
 
 ## Calibration
 
-Calibration results for extrinsic parameters and intrinsic parameters are provided [here](./calibration/calibration.pdf).
+Calibration results for extrinsic parameters and intrinsic parameters are provided [here](./calibration).
 
 ## Benchmark
 

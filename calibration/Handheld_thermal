@@ -1,0 +1,9 @@
+Thermal Camera Intrinsic Matrix:
+
+array([[418.36655225,   0.        , 314.46372441],
+       [  0.        , 418.24870226, 249.93661988],
+       [  0.        ,   0.        ,   1.        ]])
+       
+Thermal Camera Distortion Coefficients:
+
+array([[-4.47576491e-01,  2.80040449e-01, -4.33974174e-04, 3.13641216e-06, -1.05753128e-01]])

@@ -2,12 +2,14 @@
 
 ## Extract files from Rosbags
 
-`extract_rosbag` contains scripts to extract files from rosbags. ROS topics are extracted as image or csv files.
+`extract_rosbag` contains scripts to extract files from rosbags. ROS topics are extracted as image, mat or csv files.
 
 To extract the files, go to the folder and run:
 ```
 python extract_files.py
 ```
+
+Data storage paths can be configured in 'config.yaml'. Platform can be selected in `extract_files.py` file itself.
 
 ## Radar pre-processing
 
@@ -21,16 +23,14 @@ The scripts do the following things:
 To pre-process the radar data from each platform, run:
 
 ```
-python process_radar_ugv.py
-```
-Or:
-```
-python process_radar_uav.py
+python process_radar_handheld_uav.py
 ```
 Or:
 ```
 python process_radar_handheld.py
 ```
+
+Platform can be selected by configuring inside of `process_radar_handheld_uav.py`.
 
 ## Create training datasets
 

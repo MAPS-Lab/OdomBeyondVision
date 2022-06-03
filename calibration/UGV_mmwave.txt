@@ -1,0 +1,14 @@
+--------------------------------------------------------------------------------
+Multi-radar Extrinsic
+Middle, left and right radars relative to central point (dx, dy, dz and quaternion):
+
+middle: [0.16, 0, 0.0, 0, 0, 0]
+left: [0, 0.16, 0.0, 0, 0, 0.7071, 0.7071]
+right: [0, -0.16, 0.0, 0, 0, -0.7071, 0.7071]
+
+--------------------------------------------------------------------------------
+mmWave Extrinsic, Transformation_RGB_to_mmWave_central_point [m]:
+
+array([[    1.0,     0.0,     0.0,     0.032],
+       [    0.0,     1.0,     0.0,     0.044],
+       [    0.0,     0.0,     1.0,    -0.106]])

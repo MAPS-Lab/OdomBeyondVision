@@ -56,3 +56,9 @@ Calibration results for extrinsic parameters and intrinsic parameters are provid
 Training, testing and evaluation for milliEgo and DeepTIO are provided [here](./benchmark/).
 
 Pre-trained models for milliEgo and DeepTIO on all 3 platforms can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1cJ4w3Dj21EMIox2ZSx7TSdzflxNHhTVL?usp=sharing).
+
+## Acknowledgement 
+
+The data collected on AGV and handheld platforms are supported by Amazon Web Services via the Oxford-Singapore Human-Machine Collaboration Programme and EPSRC ACE-OPS (EP/S030832/1). Their data is collected at the University of Oxford.
+
+

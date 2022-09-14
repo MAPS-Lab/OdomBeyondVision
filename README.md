@@ -59,6 +59,6 @@ Pre-trained models for milliEgo and DeepTIO on all 3 platforms can be downloaded
 
 ## Acknowledgement 
 
-The data collected on AGV and handheld platforms are supported by Amazon Web Services via the Oxford-Singapore Human-Machine Collaboration Programme and EPSRC ACE-OPS (EP/S030832/1). Their data is collected at the University of Oxford.
+The data collected on AGV and handheld platforms are supported by Amazon Web Services via the Oxford-Singapore Human-Machine Collaboration Programme and EPSRC ACE-OPS (EP/S030832/1). The AGV and handheld sequences are collected at the University of Oxford.
 
 

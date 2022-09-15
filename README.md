@@ -16,7 +16,7 @@ We present the **OdomBeyondVision** dataset, a comprehensive indoor odometry dat
 
 - Extrinsic calibration parameters for all platforms and intrinsic parameters for all optic sensors, accompanied by several plug-and-play codes for developing multimodal odometry systems with our dataset.
 
-## Dataset
+## Paper
 
 The paper describing the dataset can found [here](https://arxiv.org/abs/2206.01589).
 

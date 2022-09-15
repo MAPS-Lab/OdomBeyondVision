@@ -18,6 +18,10 @@ We present the **OdomBeyondVision** dataset, a comprehensive indoor odometry dat
 
 ## Dataset
 
+The paper describing the dataset can found [here](https://arxiv.org/abs/2206.01589).
+
+## Dataset
+
 The full dataset in the format of Rosbags can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1cJ4w3Dj21EMIox2ZSx7TSdzflxNHhTVL?usp=sharing).
 
 Information for these sequences is recorded on [Google Sheet](https://docs.google.com/spreadsheets/d/1n2KkD_vjE7b5-2_qaq-sq0c-cB4JdQMBo3zMRFuTT_w/edit?usp=sharing).

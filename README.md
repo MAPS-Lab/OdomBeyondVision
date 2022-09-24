@@ -20,6 +20,29 @@ We present the **OdomBeyondVision** dataset, a comprehensive indoor odometry dat
 
 The paper describing the dataset can found [here](https://arxiv.org/abs/2206.01589).
 
+To cite this dataset:
+
+```
+@misc{https://doi.org/10.48550/arxiv.2206.01589,
+  doi = {10.48550/ARXIV.2206.01589},
+  
+  url = {https://arxiv.org/abs/2206.01589},
+  
+  author = {Li, Peize and Cai, Kaiwen and Saputra, Muhamad Risqi U. and Dai, Zhuangzhuang and Lu, Chris Xiaoxuan and Markham, Andrew and Trigoni, Niki},
+  
+  keywords = {Robotics (cs.RO), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {OdomBeyondVision: An Indoor Multi-modal Multi-platform Odometry Dataset Beyond the Visible Spectrum},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+
+```
+
 ## Dataset
 
 The full dataset in the format of Rosbags can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1cJ4w3Dj21EMIox2ZSx7TSdzflxNHhTVL?usp=sharing).
